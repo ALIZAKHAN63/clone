@@ -1,0 +1,37 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+}
+.head{
+    padding: 27px;
+    color: white;
+    background-color: rgb(31, 26, 26);
+}
+.first{
+    margin-left: 500px;
+    font-size: larger;
+    font-size: 19px;
+}
+.second{
+    margin-left: 530px;
+}
+.third{
+    margin-left: 30px;
+    color: red;
+}
+@media (max-width:800px) {
+    head{
+        color:blue
+    }
+    first{
+        margin-left: 20px;
+        font-size: medium;
+        font-size: 9px;
+    }
+    second{
+        margin-left: 200px; 
+    }
+    third{
+        margin-left: 2px;
+    }
+}
